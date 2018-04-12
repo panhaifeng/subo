@@ -3,8 +3,9 @@ class Controller_Login extends FLEA_Controller_Action {
 	function Controller_Login() {
 	}
 	function actionIndex() {
+
 		require_once('Config/NewLogin_config.php');
-		// dump($_login_config);die;
+		// dump($_login_config);die;11111
 		$login = $_login_config;
 		$_login = $_login_config['Login'];
 		$_login_Ip = $_login_config['Login_Ip'];
